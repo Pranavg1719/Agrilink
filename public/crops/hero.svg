@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#143c29"/>
+      <stop offset="60%" stop-color="#1f5138"/>
+      <stop offset="100%" stop-color="#2d6a4a"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ca8a04" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#17442f"/>
+      <stop offset="100%" stop-color="#1f583d"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#205a3f"/>
+      <stop offset="100%" stop-color="#296f4e"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#347855"/>
+      <stop offset="100%" stop-color="#1b4933"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1600" height="800" fill="url(#sky)"/>
+
+  <!-- Morning Sunrise Glow -->
+  <circle cx="1200" cy="280" r="220" fill="url(#sun)"/>
+
+  <!-- Distant Mountain Ridges -->
+  <path d="M 0 520 Q 350 360 800 480 T 1600 450 L 1600 800 L 0 800 Z" fill="url(#hill1)" opacity="0.7"/>
+  <path d="M 0 560 Q 450 420 1000 540 T 1600 510 L 1600 800 L 0 800 Z" fill="url(#hill2)" opacity="0.8"/>
+
+  <!-- Rolling Terraced Agricultural Fields -->
+  <path d="M 0 620 Q 400 530 900 620 T 1600 580 L 1600 800 L 0 800 Z" fill="url(#field)"/>
+
+  <!-- Field Contour Furrows -->
+  <path d="M 100 640 Q 600 560 1500 650" stroke="#489169" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 0 680 Q 700 600 1600 700" stroke="#52a075" stroke-width="4" fill="none" opacity="0.5"/>
+  <path d="M 0 740 Q 800 660 1600 760" stroke="#3d825c" stroke-width="5" fill="none" opacity="0.7"/>
+  <path d="M 0 780 Q 850 710 1600 790" stroke="#2c6847" stroke-width="6" fill="none" opacity="0.8"/>
+</svg>

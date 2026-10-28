@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_oni" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf5ff"/>
+      <stop offset="100%" stop-color="#f3e8ff"/>
+    </linearGradient>
+    <radialGradient id="oni_grad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="60%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#581c87"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg_oni)"/>
+  <!-- Onion body -->
+  <g transform="translate(300, 205)">
+    <!-- Bulb base -->
+    <ellipse cx="0" cy="15" rx="105" ry="115" fill="url(#oni_grad)"/>
+    <!-- Skin Texture lines -->
+    <path d="M 0 -95 Q -60 15 0 125" stroke="#7e22ce" stroke-width="2.5" fill="none" opacity="0.6"/>
+    <path d="M 0 -95 Q 60 15 0 125" stroke="#7e22ce" stroke-width="2.5" fill="none" opacity="0.6"/>
+    <path d="M 0 -95 Q -30 15 0 125" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 0 -95 Q 30 15 0 125" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.7"/>
+    <!-- Top Shoot Neck -->
+    <path d="M -12 -95 Q 0 -130 5 -145" stroke="#84cc16" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <path d="M 5 -95 Q 12 -125 22 -140" stroke="#65a30d" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <!-- Root hairs at bottom -->
+    <path d="M -20 125 Q -25 145 -30 155" stroke="#ca8a04" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 0 128 L 0 160" stroke="#ca8a04" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 20 125 Q 25 145 30 155" stroke="#ca8a04" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="375" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="22" fill="#581c87">
+    Nashik Red Onions • Lasalgaon Mandi Grade
+  </text>
+</svg>

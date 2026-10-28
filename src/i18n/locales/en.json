@@ -1,0 +1,65 @@
+{
+  "app": {
+    "title": "AgriLink",
+    "tagline": "Farm to Doorstep Pipeline",
+    "demo_badge": "Demo Data",
+    "live_badge": "Live"
+  },
+  "nav": {
+    "home": "Home",
+    "listings": "Listings",
+    "create_listing": "New Crop Listing",
+    "bids": "Bids & Deals",
+    "labour": "Labour Hub",
+    "logistics": "Logistics & Transport",
+    "store": "Retail Store",
+    "admin": "Admin Console",
+    "profile": "Profile",
+    "logout": "Sign Out",
+    "login": "Sign In",
+    "register": "Register"
+  },
+  "roles": {
+    "farmer": "Farmer",
+    "buyer": "Buyer / Retailer",
+    "vendor": "Inventory Vendor",
+    "customer": "Customer",
+    "leader": "Workers' Leader",
+    "worker": "Worker",
+    "transport": "Transport Partner",
+    "delivery": "Delivery Partner",
+    "support": "Support Operator",
+    "admin": "Administrator"
+  },
+  "ai": {
+    "disclaimer": "Estimate from photos, not a certification",
+    "uncertain": "Uncertain, physical inspection needed",
+    "grade_good": "Good Quality",
+    "grade_medium": "Medium Quality",
+    "grade_poor": "Poor Quality",
+    "confidence": "Confidence",
+    "evaluating": "Analyzing quality with on-device AI...",
+    "invalid_photo": "Photo not recognized as the selected crop or quality too blurry/dark."
+  },
+  "market": {
+    "indicative_band": "Indicative Market Price Band",
+    "modal_price": "Modal Mandi Price",
+    "no_data": "No reliable market data (older than 7 days or unavailable)",
+    "approx_distance": "approx. distance",
+    "radius_note": "Within 100 km discovery radius"
+  },
+  "actions": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save_draft": "Save Draft",
+    "publish": "Publish Listing",
+    "place_bid": "Place Bid",
+    "accept": "Accept",
+    "reject": "Reject",
+    "counter": "Counter Offer",
+    "confirm": "Confirm Deal",
+    "search": "Search",
+    "filter": "Filter",
+    "view_details": "View Details"
+  }
+}
